@@ -1,0 +1,133 @@
+ .mobile_navbar {
+    display: block;
+    position: relative;
+  }
+  
+  .menu_button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+  }
+  
+  .drawer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 1000;
+  }
+  
+  .drawer_overlay {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .drawer_content {
+    background-color: #22201e;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px;
+    color: white;
+  }
+  
+  .close_button {
+    color: white;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .drawer_links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .drawer_links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .drawer_links a:hover {
+    text-decoration: underline;
+  }
+  
+
+   /* styles.module.css
+.mobile_navbar {
+  display: block;
+  position: relative;
+}
+
+.menu_button {
+  color: white;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 1000;
+}
+
+.drawer-overlay {
+  flex: 1;
+  cursor: pointer;
+}
+
+.drawer-content {
+  background-color: #22201e;
+  width: 80%;
+  max-width: 300px;
+  padding: 20px;
+  color: white;
+}
+
+.close-button {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.drawer-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.drawer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.drawer-links a:hover {
+  text-decoration: underline;
+} */
