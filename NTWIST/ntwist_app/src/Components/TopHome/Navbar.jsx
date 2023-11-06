@@ -36,7 +36,7 @@ const Navbar = () => {
           <i className={`fas ${isDrawerOpen ? 'fa-times' : 'fa-bars'}`}></i>
         </div>
       </div>
-      <NavbarDrawer isOpen={isDrawerOpen} toggleDrawer={toggleDrawer} />
+      {/* <NavbarDrawer isOpen={isDrawerOpen} toggleDrawer={toggleDrawer} /> */}
     </nav>
   );
 };

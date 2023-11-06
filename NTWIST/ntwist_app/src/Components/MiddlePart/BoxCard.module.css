@@ -4,7 +4,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background */
   }
   
   .box {
@@ -18,13 +17,23 @@
     font-family: 'Inter', sans-serif;
     font-size: 44px;
     font-weight: 700;
-    line-height: 1.2;
-    color: #FFFFFF;
+    line-height: 1.2; /* Adjust line-height as needed */
+    color: #ff3a2d;
     margin: 0;
   }
+
+  .box p{
+    font-family: Robbo,sans-serif;
+    font-size: 16px;
+    line-height: 26.56px;
+    text-align: justify;
+    word-spacing: 0px;
+    background-color: white;
+    color:black
+  }
   
-  button {
-    background-color: #0078d4;
+  .box button {
+    background-color: #ff3a2d;
     color: white;
     font-size: 16px;
     padding: 10px 20px;
@@ -33,7 +42,7 @@
   }
   
   button:hover {
-    background-color: #005ea2;
+    background-color: #ff3a2d;
   }
   
   img {
